@@ -5,6 +5,7 @@ import '../styles/index.css';
 
 import { Form, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
 import MemeItem from './MemeItem';
+import Mymemes from  './MyMemes';
 
 class App extends Component{
     constructor(){
@@ -22,6 +23,7 @@ class App extends Component{
             <div>
                 <h2><u>Welcome to the Meme Generator! </u></h2> 
                 <h4><i>Write Some Text</i></h4>
+                <Mymemes />
                 <Form inline>
                     <FormGroup>
                         <ControlLabel> Top </ControlLabel>
